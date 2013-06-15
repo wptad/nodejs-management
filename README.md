@@ -32,3 +32,12 @@ visit http://0.0.0.0:8080/debug?port=5858 to start debugging
 sudo forever start -a -l /tmp/log.log -e /tmp/err.log -c '/usr/local/bin/node --max-old-space-size=16384' /nodejs/server.js
 
 ```
+
+
+##node-canvas Install 
+
+* <https://github.com/LearnBoost/node-canvas/wiki/Installation---OSX>
+* <https://github.com/LearnBoost/node-canvas/issues/225>
+
+
+
