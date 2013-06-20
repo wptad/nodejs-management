@@ -12,3 +12,8 @@
 
 * HTML5特性学习
 <http://www.mhtml5.com/resources>
+
+##favcon
+
+
+* <http://www.jonathantneal.com/blog/understand-the-favicon/>
