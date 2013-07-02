@@ -1,3 +1,7 @@
+##Learning
+
+* Books: <http://jsbooks.revolunet.com/>
+
 * 涵盖了前端涉及到的各个方面的技术
 <https://github.com/JacksonTian/fks>
 
@@ -17,3 +21,4 @@
 
 
 * <http://www.jonathantneal.com/blog/understand-the-favicon/>
+
