@@ -22,3 +22,12 @@
 
 * <http://www.jonathantneal.com/blog/understand-the-favicon/>
 
+
+##算法相关
+
+* <http://www.nihilogic.dk/labs/evolving-images/>
+
+
+##中文分词
+
+* <http://demo.ansj.org/seg.action>
