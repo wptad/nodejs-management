@@ -35,3 +35,9 @@
 ## 多核运算
 Parallel.js is a tiny library for multi-core processing in Javascript. 
 <http://adambom.github.com/parallel.js>
+
+##NVIDIA CUDA™ bindings for Node.js
+
+<https://github.com/kashif/node-cuda>
+
+<http://zh.wikipedia.org/wiki/CUDA>
