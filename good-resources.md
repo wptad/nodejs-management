@@ -31,3 +31,7 @@
 ##中文分词
 
 * <http://demo.ansj.org/seg.action>
+
+## 多核运算
+Parallel.js is a tiny library for multi-core processing in Javascript. 
+<http://adambom.github.com/parallel.js>
