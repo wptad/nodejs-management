@@ -1,4 +1,4 @@
-##Learning
+##Learning FROM Shuo
 
 * Books: <http://jsbooks.revolunet.com/>
 
@@ -16,6 +16,17 @@
 
 * HTML5特性学习
 <http://www.mhtml5.com/resources>
+
+
+* [JavaScript-Garden](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+讲述很多js在语言方面的细节,一个很好的参考.
+
+* [计算机程序的构造和解释中文版](http://ishare.iask.sina.com.cn/f/23759749.html) 我找不到更好的版本了,英文好的同学可以去看英语版的,质量高一些.
+
+
+* [有详细注释的Underscore源码](http://underscorejs.org/docs/underscore.html) 读这个东西会式一个很好的学习js函数的途径,其实你不看注释只看代码也没问题.
+
+
 
 ##favcon
 
