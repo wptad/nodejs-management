@@ -6,6 +6,24 @@
 
 <http://www.hacksparrow.com/difference-between-spawn-and-exec-of-node-js-child_process.html>
 
+## remove Path Recursive
+
+```
+var deleteFolderRecursive = function(path) {
+  if( fs.existsSync(path) ) {
+    fs.readdirSync(path).forEach(function(file,index){
+      var curPath = path + "/" + file;
+      if(fs.statSync(curPath).isDirectory()) { // recurse
+        deleteFolderRecursive(curPath);
+      } else { // delete file
+        fs.unlinkSync(curPath);
+      }
+    });
+    fs.rmdirSync(path);
+  }
+};
+
+```
 
 ## POSIX signals
 
