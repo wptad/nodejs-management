@@ -1,5 +1,9 @@
 ##Nodejs API
 
+##setImmediate
+* better to use `setImmediate(callback, [arg], […])`
+
+
 ##Difference between spawn and exec functions of child_process
 
 * The most significant difference between `child_process.spawn` and `child_process.exec` is in what they return - spawn returns a `stream` and exec returns a `buffer`.
