@@ -9,3 +9,5 @@
 
 #V8 Application
 * Simple one: <http://create.tpsitulsa.com/wiki/V8/A_Simple_Application>
+
+```aptitude install libv8-dev```
