@@ -1,5 +1,7 @@
 ##Learning FROM Shuo
 
+* JavaScript<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
+
 * Books: <http://jsbooks.revolunet.com/>
 
 * 涵盖了前端涉及到的各个方面的技术
