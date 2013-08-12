@@ -1,5 +1,9 @@
 ##Nodejs API
 
+## 读取系统环境变量
+
+```process.env.ENV_VARIABLE```
+
 ##setImmediate
 * better to use `setImmediate(callback, [arg], […])`
 
