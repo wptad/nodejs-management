@@ -4,11 +4,27 @@
 
 <http://www.slideshare.net/sh1mmer/writing-robust-nodejs-applications>
 
+# debug
+
+```
+console.log()
+console.error()
+console.warn()
+console.trace()
+
+```
 
 #node-inspector
 
+* install 
+ ` npm install -g node-inspector `
+ 
 ```
 node --debug server.js 
+
+- stop at first line when app start
+
+node --debug-brk  app.js
 
 node-inspector
    info  - socket.io started
