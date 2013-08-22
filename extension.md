@@ -1,5 +1,12 @@
 #extension
 
+## Compile header
+
+node-gyp compile need headers:
+
+so copy nodejs sources `/deps` `/tools` `/src` to `node-gyp` folder
+
+
 ##UVBOOK
 <http://nikhilm.github.io/uvbook/>
 
