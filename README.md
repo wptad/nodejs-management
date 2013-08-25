@@ -50,10 +50,6 @@ sudo forever start -a -l /tmp/log.log -e /tmp/err.log -c '/usr/local/bin/node --
 ```
 
 
-##node-canvas Install 
-
-* <https://github.com/LearnBoost/node-canvas/wiki/Installation---OSX>
-* <https://github.com/LearnBoost/node-canvas/issues/225>
 
 
 
