@@ -1,6 +1,45 @@
 #Nodejs stuff
 
 
+##install
+
+* For Debian Wheezy, your best bet is to compile node by yourself:
+
+
+
+```
+sudo apt-get install python g++ make checkinstall
+mkdir ~/src && cd $_
+wget -N http://nodejs.org/dist/node-latest.tar.gz
+tar xzvf node-latest.tar.gz && cd node-v*
+./configure
+checkinstall #(remove the "v" in front of the version number in the dialog)
+sudo dpkg -i node_*
+
+```
+
+* Uninstall:
+
+```
+sudo dpkg -r node
+
+```
+
+
+* In case you get a permission denied on the node executable, an alternative path might be:
+
+
+```
+umask 0022
+./configure
+make
+checkinstall -D --umask 0022 --reset-uids --install=no
+dpkg -i node_*.deb
+
+```
+
+<https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager>
+
 
 <http://www.slideshare.net/sh1mmer/writing-robust-nodejs-applications>
 
