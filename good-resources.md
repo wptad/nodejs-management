@@ -40,6 +40,9 @@
 
 * <http://www.nihilogic.dk/labs/evolving-images/>
 
+## ecmascript 5
+
+* <http://ecma262-5.com/ELS5_HTML.htm#Section_8.5>
 
 ##中文分词
 
