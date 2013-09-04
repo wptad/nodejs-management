@@ -1,5 +1,30 @@
 #gist
 
+## is port taken
+
+
+```
+var isPortTaken = function(PORT, callback) {
+  var net = require('net')
+  var tester = net.createServer()
+  tester.once('error', function (err) {
+    if (err.code == 'EADDRINUSE') {
+      callback(null, true)
+    } else {
+      callback(err)
+    }
+  })
+  tester.once('listening', function() {
+    tester.once('close', function() {
+      callback(null, false)
+    })
+    tester.close()
+  })
+  tester.listen(PORT)
+}
+
+```
+
 ##Array - max 
 
 
