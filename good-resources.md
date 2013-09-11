@@ -1,3 +1,5 @@
+
+* 匿名函数<http://dancewithnet.com/2008/05/07/javascript-anonymous-function/>
 ##Learning FROM Shuo
 
 * JavaScript<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
