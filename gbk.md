@@ -33,3 +33,5 @@ function encodeURIComponentGBK(str)
 ```
 
 * Reference: <http://cnodejs.org/topic/50fb0178df9e9fcc58c565c9>
+* <http://www.blogjava.net/whmily/articles/402487.html>
+* <http://a.a.af.cm/post/nodejs_gbk>
