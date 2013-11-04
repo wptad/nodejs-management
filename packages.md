@@ -26,5 +26,7 @@
 
 * mac
 
+`brew install cairo`
+
 * <https://github.com/LearnBoost/node-canvas/wiki/Installation---OSX>
 * <https://github.com/LearnBoost/node-canvas/issues/225>
