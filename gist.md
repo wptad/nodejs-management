@@ -1,5 +1,18 @@
 #gist
 
+## Convert to base64
+
+```
+> var a = new Buffer('key1=value1&key2=value2').toString('base64');
+undefined
+> a
+'a2V5MT12YWx1ZTEma2V5Mj12YWx1ZTI='
+> new Buffer(a, 'base64').toString()
+'key1=value1&key2=value2'
+
+```
+
+
 ## is port taken
 
 
