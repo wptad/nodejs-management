@@ -39,6 +39,38 @@ app.listen(PORT);
 
 ```
 
+## flash
+
+* app.js
+
+```
+	app.use(flash());
+	app.use(express.session({ secret: 'SECRET' }));
+	app.use(function (req, res, next) {
+		/*
+		 Notification:
+		 1. show notice in this render -> render('template', {notice: {info/success/error/warning: 'value', title: 'option'}})
+		 2. show notice in next redirect -> req.flash('info/success/error/warning'), req.flash('title', 'value')
+		 */
+		res.locals.notice = req.session.flash;
+		next();
+	})
+
+```
+
+* ejs template: 
+
+```
+	$(document).ready(function () {
+		var notice = <%- typeof notice != 'undefined' ? JSON.stringify(notice):"{}" %>;
+		notice.info && toastr.info(notice.info, notice.title || undefined);
+		notice.error && toastr.error(notice.error, notice.title || undefined);
+		notice.warning && toastr.warning(notice.warning, notice.title || undefined);
+		notice.success && toastr.success(notice.success, notice.title || undefined);
+	});
+
+
+```
 
 ##add max-age for static file
 
