@@ -81,3 +81,47 @@ app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
 ```
 
 
+## upload picture
+
+* HTML: 
+
+```
+<form enctype="multipart/form-data">
+		<input type="file" name="image" onchange="previewImage(event,this)">
+</form>
+
+```
+* express:
+
+```
+app.use(express.bodyParser({ keepExtensions: true, uploadDir: '/my/files' }));
+
+
+
+req.files.image
+
+{ size: 74643,
+  path: '/tmp/8ef9c52abe857867fd0a4e9a819d1876',
+  name: 'edge.png',
+  type: 'image/png',
+  hash: false,
+  lastModifiedDate: Thu Aug 09 2012 20:07:51 GMT-0700 (PDT),
+  _writeStream: 
+   { path: '/tmp/8ef9c52abe857867fd0a4e9a819d1876',
+     fd: 13,
+     writable: false,
+     flags: 'w',
+     encoding: 'binary',
+     mode: 438,
+     bytesWritten: 74643,
+     busy: false,
+     _queue: [],
+     _open: [Function],
+     drainable: true },
+  length: [Getter],
+  filename: [Getter],
+  mime: [Getter] }
+  
+
+```
+* refer <http://expressjs.com/api.html#req.files>
