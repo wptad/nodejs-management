@@ -9,6 +9,17 @@
 
 * passport <http://passportjs.org/>
 
+* oauth2 : <http://kejibo.com/oauth2/>
+
+
+
+```
+
+
+```
+
+
+
 
 ##Management
 
