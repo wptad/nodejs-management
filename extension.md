@@ -1,5 +1,9 @@
 #extension
 
+## npm mirror
+
+* <http://cnpmjs.org/>
+
 ## Compile header
 
 node-gyp compile need headers:
