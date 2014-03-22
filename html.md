@@ -46,3 +46,4 @@ else
 
 * <http://www.the-art-of-web.com/html/html5-form-validation/>
 * <http://www.sitepoint.com/using-the-html5-constraint-api-for-form-validation/>
+* <http://www.html5rocks.com/en/tutorials/forms/constraintvalidation/?redirect_from_locale=zh>
