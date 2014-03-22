@@ -1,8 +1,5 @@
 #extension
 
-## npm mirror
-
-* <http://cnpmjs.org/>
 
 ## Compile header
 
