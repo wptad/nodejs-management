@@ -4,6 +4,9 @@
 
 
 ===
+* angularjs <http://ionicframework.com/getting-started/>
+
+* good demo website: <http://tutorialzine.com/category/tutorials/>
 
 * poll app demo <http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/>
 
