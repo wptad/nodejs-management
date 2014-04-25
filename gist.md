@@ -85,3 +85,20 @@ Boolean("false"); // true. "false" is a regular, non-empty string
 ```
 
 
+## Weighted/Biased Random Number Generation
+
+```
+var a=[0.5, 0.2, 0.2, 0.1]
+var weightedChoiceSub = function (list) {
+	var sum = list.reduce(function (a, b) {return a + b});
+	var rnd = Math.random() * sum;
+	for (var i in list) {
+		rnd -= list[i];
+		if (rnd < 0) return i;
+	}
+}
+randomIndex = weightedChoiceSub(a);
+
+```
+
+
