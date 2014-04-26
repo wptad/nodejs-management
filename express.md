@@ -1,5 +1,22 @@
 #express
 
+## express-generator
+
+
+```
+npm install -g express-generator
+
+express --css less -e ejs yun-text
+```
+
+## body parser
+
+```
+var bodyParser = require('body-parser');
+app.use(bodyParser.json({limit:'100mb'}));
+app.use(bodyParser.urlencoded({limit:'100mb'}));
+```
+
 ## API
 
 <http://expressjs.com/api.html>

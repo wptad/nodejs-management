@@ -101,4 +101,9 @@ randomIndex = weightedChoiceSub(a);
 
 ```
 
+* <http://codetheory.in/weighted-biased-random-number-generation-with-javascript-based-on-probability/>
+* <https://www.npmjs.org/package/random-weighted-choice>
+* <http://codereview.stackexchange.com/questions/4264/javascript-weighted-random-generator>
+* <http://erlycoder.com/105/javascript-weighted-random-value-from-array>
+
 
