@@ -101,6 +101,16 @@ randomIndex = weightedChoiceSub(a);
 
 ```
 
+## Random Integer
+
+```
+
+function getRandomInt (min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+```
+
 * <http://codetheory.in/weighted-biased-random-number-generation-with-javascript-based-on-probability/>
 * <https://www.npmjs.org/package/random-weighted-choice>
 * <http://codereview.stackexchange.com/questions/4264/javascript-weighted-random-generator>
