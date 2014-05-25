@@ -1,5 +1,10 @@
 #gist
 
+## console with color
+
+* <https://coderwall.com/p/yphywg>
+
+
 ## Convert to base64
 
 ```
