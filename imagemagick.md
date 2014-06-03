@@ -6,6 +6,23 @@
 `apt-get install imagemagick `
 
 
+
+```
+var fs = require('fs'),
+	gm = require('gm'),
+	async = require('async'),
+	im = gm.subClass({ imageMagick: true });
+function cropImage(path, targetWidth, targetHeight, w, h, x, y, callback) {
+	im(path).crop(w, h, x, y).resize(targetWidth, targetHeight).autoOrient().write(path, function (err, result) {
+		callback(err, result);
+	});
+}
+
+```
+
+
+
+
 ```
 
 <!DOCTYPE html>
