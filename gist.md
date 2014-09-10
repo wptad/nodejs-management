@@ -1,5 +1,35 @@
 #gist
 
+
+## ip2long long2ip
+
+```
+//convert IP to Long
+exports.ip2Long = function(dot) {
+	if (!dot)
+		return 0;
+
+	var d = dot.split('.');
+	if (d.length === 4)
+		return ((((((+d[0]) * 256) + (+d[1])) * 256) + (+d[2])) * 256) + (+d[3]);
+	else
+		return 0;
+}
+
+exports.long2ip = function(ip) {
+	//  discuss at: http://phpjs.org/functions/long2ip/
+	// original by: Waldo Malqui Silva
+	//   example 1: long2ip( 3221234342 );
+	//   returns 1: '192.0.34.166'
+
+	if (!isFinite(ip))
+		return false;
+
+	return [ip >>> 24, ip >>> 16 & 0xFF, ip >>> 8 & 0xFF, ip & 0xFF].join('.');
+}
+
+```
+
 ## console with color
 
 * <https://coderwall.com/p/yphywg>
