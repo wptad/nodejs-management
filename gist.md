@@ -1,5 +1,34 @@
 #gist
 
+## remote address
+
+```
+var remoteAddress = req.headers['x-real-ip'] || req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+
+```
+
+## cross domain ajax with http basic auth
+
+```
+	$.ajax({
+		type: "POST",
+		url: "http://127.0.0.1:9217/upload",
+		data: 'data=fdsfds',
+ 		crossDomain: true,
+        beforeSend: function(xhr){
+            xhr.setRequestHeader("Authorization",
+            "Basic d3B0YWQ6Z295b290YWQxMjM=");
+        }
+	}).done(function (result) {
+		if (result && result.status === 0) {
+			callback();
+		} else {
+			callback(result.msg);
+		}
+	});
+	
+
+```
 
 ## ip2long long2ip
 
