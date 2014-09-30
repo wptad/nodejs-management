@@ -6,6 +6,8 @@
 #ui resources
 
 * <http://pixelkit.com/free-ui-kits/modern-touch/>
+* <http://www.iconfont.cn/>
+* <https://icomoon.io/>
 
 ##  leaning
 
