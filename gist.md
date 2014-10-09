@@ -1,5 +1,24 @@
 #gist
 
+
+
+## redirect 
+
+
+* 5秒之后刷新本页面:
+
+```
+<meta http-equiv="refresh" content="5" />
+```
+
+
+* 5秒之后转到baidu首页:
+
+```
+<meta http-equiv="refresh" content="5; url=http://www.baidu.com/" />
+```
+
+
 ## remote address
 
 ```

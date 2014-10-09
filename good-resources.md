@@ -3,6 +3,7 @@
 
 
 
+
 ===
 * angularjs <http://ionicframework.com/getting-started/>
 
@@ -11,6 +12,16 @@
 * poll app demo <http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/>
 
 * 匿名函数<http://dancewithnet.com/2008/05/07/javascript-anonymous-function/>
+
+
+## stats 
+
+
+* [grafana](http://grafana.org/)
+* [influxdb](https://github.com/influxdb/influxdb/)
+
+
+
 ##Learning FROM Shuo
 
 * JavaScript<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
