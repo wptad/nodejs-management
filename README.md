@@ -8,6 +8,16 @@
 
 
 ```
+ sudo apt-get install python g++ make checkinstall fakeroot
+ src=$(mktemp -d) && cd $src
+ wget -N http://nodejs.org/dist/node-latest.tar.gz
+ tar xzvf node-latest.tar.gz && cd node-v*
+ ./configure
+ sudo fakeroot checkinstall -y --install=no --pkgversion $(echo $(pwd) | sed -n -re's/.+node-v(.+)$/\1/p') make -j$(($(nproc)+1)) install
+ sudo dpkg -i node_*
+```
+
+```
 sudo apt-get install python g++ make checkinstall
 mkdir ~/src && cd $_
 wget -N http://nodejs.org/dist/node-latest.tar.gz
@@ -17,6 +27,8 @@ checkinstall #(remove the "v" in front of the version number in the dialog)
 sudo dpkg -i node_*
 
 ```
+
+
 
 * Uninstall:
 
