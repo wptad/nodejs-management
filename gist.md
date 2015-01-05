@@ -1,6 +1,10 @@
 #gist
 
 
+## nodestreams.com
+
+* <http://nodestreams.com/>
+
 ## cartesianProductOf
 
 ```
@@ -16,8 +20,9 @@ function cartesianProductOf() {
  
 cartesianProductOf([1, 2], [3, 4], ['a', 'b'])); // [[1,3,"a"],[1,3,"b"],[1,4,"a"],[1,4,"b"],[2,3,"a"],[2,3,"b"],[2,4,"a"],[2,4,"b"]] 
 
-```
 
+```
+REFER : <http://stackoverflow.com/questions/12303989/cartesian-product-of-multiple-arrays-in-javascript>
 
 ## user agent detect
 
