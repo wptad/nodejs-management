@@ -1,5 +1,12 @@
 #gist
 
+## getRemoteAddress
+
+```
+exports.getRemoteAddress = function (req) {
+	return req.connection.remoteAddress || req.headers['x-real-ip'] || req.headers['x-forwarded-for'];
+}
+```
 
 ## nodestreams.com
 
