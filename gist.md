@@ -8,6 +8,15 @@ exports.getRemoteAddress = function (req) {
 }
 ```
 
+## regexp: and expression
+
+* `(a_string && b_string )||(a_string && c_string)`
+
+```
+/(a_string)(.)*(b_string)|(a_string)(.)*(c_string)/
+
+```
+
 ## nodestreams.com
 
 * <http://nodestreams.com/>

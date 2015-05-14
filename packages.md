@@ -43,6 +43,14 @@
 
 `apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++`
 
+
+* debian
+
+```
+Cairo sudo apt-get install libcairo2-dev
+apt-get install libpango1.0-dev
+```
+
 * mac
 
 
