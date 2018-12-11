@@ -1,0 +1,13 @@
+
+```
+SHOW VARIABLES WHERE Variable_name LIKE 'character_set_%' OR Variable_name LIKE 'collation%';
+
+
+set collation_connection=utf8mb4_unicode_ci;
+set collation_database=utf8mb4_unicode_ci;
+set collation_server=utf8mb4_unicode_ci;
+
+REPAIR TABLE account;
+OPTIMIZE table account;
+SHOW FULL COLUMNS  FROM  account;
+```
